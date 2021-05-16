@@ -1,0 +1,11 @@
+import tkinter as tk
+window = tk.Tk()
+frA = tk.Frame()
+labA = tk.Label(master=frA, text="This is A Frame")
+labA.pack()
+frb = tk.Frame()
+labB = tk.Label(master=frb, text="This is B Frame")
+labB.pack()
+frb.pack()
+frA.pack()
+window.mainloop()
